@@ -1,0 +1,2 @@
+# Fungsi ini digunakan untuk membatasi resource pada container yang dibuat yang dimana resource yang digunakan adalah memory (lebih jelasnya adalah memory 100 MB) dan cpu (lebih jelasnya adalah cpu 0.5)
+docker container create --name smallnginx --memory 100m --cpus 0.5 --publish 8081:80 nginx:latest
